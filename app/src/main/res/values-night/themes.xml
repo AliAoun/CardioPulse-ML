@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.HeartDiseasesPrediction" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor" >@color/primary</item>
+    </style>
+
+    <style name="textView_style">
+        <item name="android:padding">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+    </style>
+
+    <style name="inputFields_style" >
+        <item name="android:layout_marginStart">@dimen/_8sdp</item>
+        <item name="android:padding">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="tableRow_margin">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_12sdp"
+    android:gravity="center_vertical"
+    android:id="@+id/toolbar"
+    >
+
+    <ImageView
+        android:padding="@dimen/_4sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu"
+        android:id="@+id/toolbar_menu_icon"
+        app:tint="@color/primary" />
+
+    <TextView
+        android:id="@+id/toolbar_tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hdp"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/primary"
+        android:padding="@dimen/_4sdp"
+        />
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/toolbar_iv_imageProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        android:layout_gravity="end"
+        android:layout_marginEnd="8dp"
+        android:padding="@dimen/_4sdp"
+        app:riv_corner_radius="@dimen/_100sdp"
+        />
+
+
+</LinearLayout>

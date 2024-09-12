@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name" translatable="false">Chat App</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="register_here" translatable="false">Register Here</string>
+    <string name="don_t_have_account" translatable="false">Don\'t Have Account</string>
+    <string name="have_an_account" translatable="false">Have An Account </string>
+    <string name="login_here" translatable="false">Login Here</string>
+    <string name="create_new_account" translatable="false">Create New Account</string>
+    <string name="add_image" translatable="false">add image</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+    <string name="sign_up" translatable="false">Sign Up</string>
+    <string name="log_in" translatable="false">Log In</string>
+    <string name="login_to_continue" translatable="false">login to continue</string>
+    <string name="navigation_drawer_open" translatable="false">open</string>
+    <string name="navigation_drawer_close" translatable="false">close</string>
+    <string name="blah_blah_text" translatable="false">blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="result_have" translatable="false">"Based On Your Symptoms , You Have Cardiovascular"</string>
+    <string name="result_notHave" translatable="false">Based On Your Symptoms , You Don\'t Have Cardiovascular</string>
+    <string name="save_to_another_account" translatable="false">Save Related To Other User Data</string>
+    <string name="save_to_account" translatable="false">Save Related To This Account Data</string>
+    <string name="cardiovascular" translatable="false">Cardiovascular</string>
+    <string name="fill_your_data" translatable="false">Fill Your Data :</string>
+    <string name="age" translatable="false">age</string>
+    <string name="gender" translatable="false">Gender</string>
+    <string name="chest_pain_type" translatable="false">Chest Pain Type</string>
+    <string name="resting_blood_pressure" translatable="false">Resting Blood Pressure</string>
+    <string name="cholesterol" translatable="false">Cholesterol</string>
+    <string name="fasting_blood_sugar" translatable="false">Fasting Blood Sugar</string>
+    <string name="rest_ecg" translatable="false">Rest ECG</string>
+    <string name="max_heart_rate" translatable="false">Max Heart Rate</string>
+    <string name="exercise_induced_angina" translatable="false">Exercise Induced Angina</string>
+    <string name="st_depression" translatable="false">ST_Depression</string>
+    <string name="st_slope" translatable="false">ST_Slope</string>
+    <string name="ca" translatable="false">Ca</string>
+    <string name="thalassemia" translatable="false">thalassemia</string>
+    <string name="predict" translatable="false">Predict</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="your_result" translatable="false">Your Result</string>
+    <string name="result" translatable="false">Result</string>
+    <string name="save_result" translatable="false">Save Result</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="user_name" translatable="false">User Name</string>
+    <string name="edit_profile_details" translatable="false">Edit Profile Details</string>
+    <string name="dark_mode" translatable="false">Dark Mode</string>
+    <string name="contact_support" translatable="false">Contact Support</string>
+    <string name="account_settings" translatable="false">Account Settings</string>
+    <string name="language" translatable="false">Language</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="password_hint" translatable="false">**********</string>
+    <string name="forget_password" translatable="false">Forget Password</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="login_using" translatable="false">Login Using</string>
+    <string name="don_t_have_an_account" translatable="false">don\'t have an account</string>
+    <string name="create_one" translatable="false">create one</string>
+    <string name="first_name" translatable="false">First Name</string>
+    <string name="last_name" translatable="false">Last Name</string>
+    <string name="email_hint" translatable="false">emxample@gmail.com</string>
+    <string name="password_tip" translatable="false">your password should include atleast 8 characters, 1 uppercase, 1 numeric and 1 special character</string>
+    <string name="select_user" translatable="false">Select User</string>
+    <string name="info" translatable="false">Info</string>
+    <string name="contacts" translatable="false">Contacts</string>
+    <string name="cardiovascular_check" translatable="false">Cardiovascular Check</string>
+    <string name="tips_for_healthy_life" translatable="false">Tips For Healthy life</string>
+    <string name="inbox" translatable="false">Inbox</string>
+    <string name="all_results" translatable="false">All Results</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="user_email" translatable="false">User Email</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="chest_pain" translatable="false">Chest Pain</string>
+    <string name="resting_blood" translatable="false">Resting Blood</string>
+    <string name="fasting_blood" translatable="false">Fasting Blood</string>
+    <string name="restecg" translatable="false">RestEcg</string>
+    <string name="induced_angina" translatable="false">Induced Angina</string>
+    <string name="stdepression" translatable="false">StDepression</string>
+    <string name="stslope" translatable="false">StSlope</string>
+    <string name="thal" translatable="false">Thal</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="hdp" translatable="false">HDP</string>
+    <string name="contact_us" translatable="false">Contact Us</string>
+
+    <!--    <string name="title1">Control your blood pressure</string>-->
+    <!--    <string name="title2">Keep your cholesterol and triglyceride levels under control</string>-->
+    <!--    <string name="title3">Manage diabetes</string>-->
+    <!--    <string name="title4">Stay at a healthy weight</string>-->
+    <!--    <string name="title5">Eat a healthy diet</string>-->
+    <!--    <string name="title6">Get regular exercise</string>-->
+    <!--    <string name="title7">Limit alcohol</string>-->
+    <!--    <string name="title8">Don't smoke</string>-->
+    <!--    <string name="title9">Manage stress</string>-->
+    <!--    <string name="title10">Make sure that you get enough sleep</string>-->
+    <!--    <string name="info1">High BP is a major risk factor for heart disease. It is important to get your blood pressure checked regularly - at least once a year for most adults, and more often if you have high blood pressure. Take steps, including lifestyle changes, to prevent or control high blood pressure</string>-->
+    <!--    <string name="info2">High levels of cholesterol can clog your arteries and raise your risk of coronary artery disease and heart attack. Lifestyle changes and medicines (if needed) can lower your cholesterol. Triglycerides are another type of fat in the blood. High levels of triglycerides may also raise the risk of coronary artery disease, especially in women.\n Total cholesterol level over 200\n > HDL (\"good\") cholesterol level under 40\n > LDL (\"bad\") cholesterol level over 160\n > Triglycerides over 150</string>-->
+    <!--    <string name="info3">Having diabetes doubles your risk of diabetic heart disease. That is because over time, high blood sugar from diabetes can damage your blood vessels and the nerves that control your heart and blood vessels. So, it is important to get tested for diabetes, and if you have it, to keep it under control.</string>-->
+    <!--    <string name="info4">Being overweight or having obesity can increase your risk for heart disease. This is mostly because they are linked to other heart disease risk factors, including high blood cholesterol and triglyceride levels, high blood pressure, and diabetes. Controlling your weight can lower these risks.</string>-->
+    <!--    <string name="info5">Try to limit saturated fats, foods high in sodium, and added sugars. Eat plenty of fresh fruit, vegetables, and whole grains. The DASH diet is an example of an eating plan that can help you to lower your blood pressure and cholesterol, two things that can lower your risk of heart disease.</string>-->
+    <!--    <string name="info6">Exercise has many benefits, including strengthening your heart and improving your circulation. It can also help you maintain a healthy weight and lower cholesterol and blood pressure. All of these can lower your risk of heart disease.</string>-->
+    <!--    <string name="info7">Drinking too much alcohol can raise your blood pressure. It also adds extra calories, which may cause weight gain. Both of those raise your risk of heart disease. Men should have no more than two alcoholic drinks per day, and women should not have more than one.</string>-->
+    <!--    <string name="info8">Cigarette smoking raises your blood pressure and puts you at higher risk for heart attack and stroke. If you do not smoke, do not start. If you do smoke, quitting will lower your risk for heart disease. You can talk with your health care provider for help in finding the best way for you to quit.</string>-->
+    <!--    <string name="info9">Stress is linked to heart disease in many ways. It can raise your blood pressure. Extreme stress can be a "trigger" for a heart attack. Also, some common ways of coping with stress, such as overeating, heavy drinking, and smoking, are bad for your heart. Some ways to help manage your stress include exercise, listening to music, focusing on something calm or peaceful, and meditating</string>-->
+    <!--    <string name="info10">If you don't get enough sleep, you raise your risk of high blood pressure, obesity, and diabetes. Those three things can raise your risk for heart disease. Most adults need 7 to 9 hours of sleep per night. Make sure that you have good sleep habits. If you have frequent sleep problems, contact your health care provider. One problem, sleep apnea, causes people to briefly stop breathing many times during sleep. This interferes with your ability to get a good rest and can raise your risk of heart disease. If you think you might have it, ask your doctor about having a sleep study. And if you do have sleep apnea, make sure that you get treatment for it.</string>-->
+    <string name="ar" translatable="false">AR</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="english" translatable="false">English</string>
+    <string name="en" translatable="false">EN</string>
+    <string name="choose" translatable="false">Choose</string>
+    <string name="enter_the_email_or_phone_number_associated_to_the_account">enter the email or phone number associated to the account</string>
+    <string name="send">Send</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="new_password">New Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="create">Create</string>
+    <string name="reset">Reset</string>
+
+
+</resources>

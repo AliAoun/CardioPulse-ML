@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_20ssp"
+    tools:context=".ui.fragments.SettingsFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/profile_layout_bg"
+        android:id="@+id/settings_cl_editProfile"
+        >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/settings_iv_imgProfile"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:padding="@dimen/_4ssp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="start"
+            app:riv_corner_radius="@dimen/_300sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_bias="0"
+            android:layout_marginStart="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/settings_iv_imgProfile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/settings_iv_imgProfile"
+            app:layout_constraintTop_toTopOf="@+id/settings_iv_imgProfile">
+
+            <TextView
+                android:id="@+id/settings_tv_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/user_name"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/edit_profile_details"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="@+id/roundedImageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/roundedImageView"
+                app:layout_constraintTop_toBottomOf="@+id/settings_tv_userName" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/settings_iv_goEditProfile"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_navigate_next"
+            android:layout_marginEnd="@dimen/_8sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/profile_layout_bg"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_45sdp"
+                android:text="@string/dark_mode"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_4sdp"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_dark_mode"
+                android:drawablePadding="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                />
+            <ImageView
+                android:id="@+id/settings_iv_darkMode"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_theme"
+                android:padding="@dimen/_4sdp"
+                android:layout_margin="@dimen/_4sdp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:orientation="vertical"
+            android:background="@drawable/profile_layout_bg"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:text="@string/contact_support"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_4sdp"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_contact_support"
+                android:drawablePadding="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:text="@string/account_settings"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_4sdp"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_settings"
+                android:drawablePadding="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_ll_last"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:orientation="vertical"
+            android:background="@drawable/profile_layout_bg"
+            >
+            <TextView
+                android:id="@+id/settings_tv_language"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:text="@string/language"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_4sdp"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_language"
+                android:drawablePadding="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                />
+            <TextView
+                android:id="@+id/settings_tv_logout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:text="@string/logout"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_4sdp"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_logout"
+                android:drawablePadding="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                />
+
+        </LinearLayout>
+</LinearLayout>

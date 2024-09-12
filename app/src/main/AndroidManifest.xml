@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/img1"
+        android:label="Heart Disease Prediction"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HeartDiseasesPrediction"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.activities.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+/+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.CardioPredictActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.TipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.SignUpActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.activities.SignInActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".firebase.MessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206369270337",
+    "project_id": "cardiopulse-9db29",
+    "storage_bucket": "cardiopulse-9db29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206369270337:android:9ab17e5f68e1e1bb5f34c0",
+        "android_client_info": {
+          "package_name": "com.aountech.heartdiseasesprediction"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjSqNrlgjDFJAf7k1AINuMEa1sISRAHto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
