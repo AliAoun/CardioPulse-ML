@@ -142,10 +142,10 @@ The app integrates predictive modeling, secure cloud storage via Firebase, and p
 
 
 
-## Project Videos
+## Project Video
     
 -   Project App Demo Video
-<img src="https://github.com/user-attachments/assets/eb9fcdf2-8849-433e-97cb-ee725d9ef4ff" width="40%">
+<img src="https://github.com/user-attachments/assets/eb9fcdf2-8849-433e-97cb-ee725d9ef4ff" width="36%">
 
 
 
