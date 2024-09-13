@@ -1,5 +1,10 @@
 # CardioPulse: Cardiovascular Disease Prediction through an Integrated Machine Learning Framework ❤️🩺
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/347cb917-e290-461a-aab6-3222ade1d8e8" width="300" alt="Project Logo">
+
+</p>
+
 ## Project App Promo Video
 <img src="https://github.com/user-attachments/assets/d3d045fa-3ae5-4e9b-aa6a-5bed1e47b913" width="100%">
 
@@ -140,7 +145,7 @@ The app integrates predictive modeling, secure cloud storage via Firebase, and p
 ## Project Videos
     
 -   Project App Demo Video
-<img src="https://github.com/user-attachments/assets/eb9fcdf2-8849-433e-97cb-ee725d9ef4ff" width="400%">
+<img src="https://github.com/user-attachments/assets/eb9fcdf2-8849-433e-97cb-ee725d9ef4ff" width="350%">
 
 
 
