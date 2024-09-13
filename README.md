@@ -1,4 +1,3 @@
-![cardiopulse_gif](https://github.com/user-attachments/assets/6b008b78-4411-4ebf-a37f-a4931de62abd)
 # CardioPulse: Cardiovascular Disease Prediction through an Integrated Machine Learning Framework ❤️🩺
 
 ## Overview
@@ -63,8 +62,8 @@ The app integrates predictive modeling, secure cloud storage via Firebase, and p
 ## Project Videos
 
 -   [Project App Promo Video](#)
-    <img src="https://github.com/user-attachments/assets/d3d045fa-3ae5-4e9b-aa6a-5bed1e47b913" width="25%">
-    <img src="https://github.com/AliAoun/calculator_app_flutter_learning_6/assets/80461232/ca16befb-4e1a-4c90-9313-390a7b0ee354" width="25%">
+<img src="https://github.com/user-attachments/assets/d3d045fa-3ae5-4e9b-aa6a-5bed1e47b913" width="25%">
+    
 -   [Project App Demo Video](#)  
 
 
